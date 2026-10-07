@@ -1,0 +1,9 @@
+{
+  "name": "student-management-system-ta",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check static/app.js"
+  },
+  "devDependencies": {}
+}
