@@ -186,6 +186,7 @@ def delete_student(student_id):
     return jsonify({"message": "Student deleted successfully."})
 
 
+init_db()
+
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True, host="127.0.0.1", port=5000)
